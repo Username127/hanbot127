@@ -13,7 +13,7 @@ token = '1065369028:AAEeSsvfOxbpLea-OzqXL9yAtVFiXih8cCA'
 bot = telebot.TeleBot (token)
 
 server = flask.Flask(_name_)
-apikey=""
+apikey="d2082dd3-a3b5-4514-ad00-659abf24e921"
 
 cred = credentials.Certificate('key.json')
 firebase_admin.initialize_app(cred, {'databaseURL':'https://hankaz-f9cdf.firebaseio.com/'})
